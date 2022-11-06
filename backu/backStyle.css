@@ -1,0 +1,90 @@
+.topBar{
+    background-color: #2d2d2ffa;
+
+    height: 73px;
+}
+body{
+    margin: 0;
+
+}
+.mainWapp{
+    height: 100vh;
+}
+.mainSpace{
+    display: flex;
+
+}
+.leftBar{
+    flex:2.4;
+    background-color: rgba(255, 255, 255, 0.746);
+    height: 100vh;
+}
+.mainScreen{
+    display: flex;
+    flex: 7.6;
+    background-color:#3a3a3a;
+    height: 100vh;
+}
+.leftBarTop{
+    height: 30%;
+    background-color:  #373738;
+}
+.leftBarBottom{
+    height: 70%;
+    background-color:#353536;
+
+}
+.mainBox{
+    height:90%;
+}
+.subBox{
+    background-color:rgba(255, 233, 92, 0.828);;
+    height: 5px;
+}
+.TopTitile{
+    color: white;
+
+    font-size: 180%;
+    /* font-size: 1.5em; */
+    font-weight: 800;
+    font-family: 'Franklin Gothic';
+}
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.topBarTitle{
+    margin-left: 3%;
+    
+}
+.searchBar{
+    justify-content: center;
+    
+}
+.searchThread{
+    width: 40%;
+    position: relative;
+
+}
+.kari{
+    width: 10%;
+    background-color: red;
+}
+.inputWapp{
+    width: 45%;
+    height: 30px;
+    margin-left: 26%;
+    margin-top: 1px;
+
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    position: absolute;
+
+}
+.TopInput{
+    
+}

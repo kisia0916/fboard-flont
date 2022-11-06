@@ -1,0 +1,276 @@
+.topBar{
+    background-color: #2d2d2ffa;
+
+    height: 73px;
+}
+body{
+    margin: 0;
+    overflow: hidden
+}
+.mainWapp{
+    height: 100vh;
+}
+.mainSpace{
+    display: flex;
+    background-color: #343435;
+
+}
+.leftBar{
+    flex:2.2;
+    background-color:#373738;
+
+    resize: both;
+    height: 100vh;
+}
+.mainScreen{
+    display: flex;
+    flex: 7.8;
+    background-color:#343435;
+    height: 100vh;
+}
+.leftBarTop{
+    flex: 3.5;
+    background-color:  #373738;
+
+
+}
+.leftBarBottom{
+    flex: 6.5;
+    height: 100vh;
+    background-color:#353536;
+    /* overflow: scroll; */
+
+}
+.mainBox{
+    height:90%;
+}
+.sagasu{
+    margin-top: 3px;
+}
+.subBox{
+    background-color:rgba(255, 233, 92, 0.828);;
+    height: 5px;
+}
+.TopTitile{
+    color: white;
+
+    font-size: 180%;
+    /* font-size: 1.5em; */
+    font-weight: 800;
+    font-family: 'Franklin Gothic';
+}
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.topBarTitle{
+    margin-left: 3%;
+    
+}
+.searchBar{
+    justify-content: center;
+    
+}
+.searchThread{
+    margin-left: 1%;
+    display:flex;
+    margin-top: 10px;
+    outline: none;
+    margin-top: 0px;
+    height: 80%;
+    width: 84%;
+    border: none;
+}
+.kari{
+     color: white;
+margin-right: 3%;
+}
+.inputWapp{
+    width: 40%;
+    height: 30px;
+    margin-right:6%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+
+}
+
+.material-symbols-outlined {
+    display: flex;
+    margin-left: 3%;
+
+    
+}
+
+
+.phtoWapp{
+    height: 100%;
+    background-color: #373738;
+}
+
+.profilePhoto{
+    border-radius: 50%;
+    margin-top:30px;
+}
+.NameTag{
+
+    color: white;
+    font-size: 200%;
+    /* font-size: 1.5em; */
+    font-weight: 800;
+    font-family: 'Franklin Gothic';
+}
+.leftNameWapp{
+    text-align: center;
+    margin-top: 8px;
+}
+.photoWapp2{
+    text-align: center;
+    /* margin-top: 40px; */
+}
+.profileText{
+    display: flex;
+}
+.MybirthDay{
+    color:white;
+    font-family: 'Franklin Gothic';
+}
+.MybirthDay{
+    display:flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.Toolbar{
+    margin-top:4%;
+    display: flex;
+    justify-content: space-around;
+}
+.toolbarLine{
+    background-color: rgba(255, 233, 92, 0.828);
+    height: 6px;
+}
+.material-symbols-outlined{
+
+}
+.toolStar{
+    display: flex;
+    color: white;
+}
+.likeText{
+    font-size: 120%;
+    color: white;
+    align-items: center;
+    margin-top: 2px;
+
+    font-family: 'Franklin Gothic';
+}
+.tab_radio:checked+.likeText{
+    color: red;
+}
+.like{
+    color: white;
+    align-items: center;
+    margin-top: 2px;
+
+}
+.toolHistory{
+    display: flex;
+    margin-left: 10px;
+}
+.history{
+    color: white;
+    align-items: center;
+    margin-top: 2px;
+}
+.historyText{
+    font-size: 120%;
+    color: white;
+    align-items: center;
+    margin-top: 2px;
+    font-family: 'Franklin Gothic';
+
+}
+
+.toolThread{
+    display: flex;
+}
+.myThread{
+    color: white;
+    align-items: center;
+    margin-top: 2px;
+}
+.MyThreadText{
+    font-size: 100%;
+    color: white;
+    align-items: center;
+    margin-top: 3px;
+
+    font-family: 'Franklin Gothic';
+
+}
+
+.toolBarLine{
+    background-color: rgba(255, 233, 92, 0.828);
+    height: 5px;
+    
+}
+.toolText{
+    margin-bottom: 4px;
+}
+.selectBox1{
+
+}
+.tab_radio:checked + .selectBox1 {
+    background-color:rgba(255, 233, 92, 0.828);
+    padding-left: 16px;
+    position: absolute;
+    height: 30px;
+    width: 4%;
+    align-items: center;
+    border-radius: 6px 6px 0 0;
+    
+}  
+.tab_radio2:checked + .selectBox1 {
+    background-color:rgba(255, 233, 92, 0.828);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 30px;
+    width: 6%;
+
+    align-items: center;
+    border-radius: 6px 6px 0 0;
+} 
+.tab_radio3:checked + .selectBox1 {
+    background-color:rgba(255, 233, 92, 0.828);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 30px;
+    width: 6%;
+    margin-right: 0px;
+    align-items: center;
+    border-radius: 6px 6px 0 0;
+} 
+
+.toolTextWapp{
+    display: flex;
+    position: relative;
+}
+.toolTextWappHistory{
+    margin-left: 10%;
+}
+.toolTextWappLike{
+    margin-left: 12%;
+}
+.toolTextWappMyThread{
+    margin-left: 4%;
+}
+
+.tab_radio,.tab_radio2,.tab_radio3{
+    display: none;
+}
+
