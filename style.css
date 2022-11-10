@@ -17,13 +17,13 @@ body{
 }
 .leftBar{
     flex:2.2;
+    min-width: 320px;
     background-color:#373738;
 
     resize: both;
     height: 100vh;
 }
 .mainScreen{
-    display: flex;
     flex: 7.8;
     background-color:#343435;
     height: 100vh;
@@ -48,7 +48,7 @@ body{
     margin-top: 3px;
 }
 .subBox{
-    background-color:rgba(255, 233, 92, 0.828);;
+    background-color:rgba(255, 233, 92, 0.828);
     height: 5px;
 }
 .TopTitile{
@@ -92,6 +92,7 @@ margin-right: 3%;
     width: 40%;
     height: 30px;
     margin-right:6%;
+    margin-left: 3%;
     border-radius: 10px;
     background-color: white;
     display: flex;
@@ -146,11 +147,12 @@ margin-right: 3%;
 .Toolbar{
     margin-top:4%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    user-select:none
 }
 .toolbarLine{
     background-color: rgba(255, 233, 92, 0.828);
-    height: 6px;
+    height: 7px;
 }
 .material-symbols-outlined{
 
@@ -158,6 +160,8 @@ margin-right: 3%;
 .toolStar{
     display: flex;
     color: white;
+    margin-left: 4%;
+
 }
 .likeText{
     font-size: 120%;
@@ -189,13 +193,14 @@ margin-right: 3%;
     font-size: 120%;
     color: white;
     align-items: center;
-    margin-top: 2px;
+    margin-top: 4px;
     font-family: 'Franklin Gothic';
 
 }
 
 .toolThread{
     display: flex;
+    margin-right: 9%;
 }
 .myThread{
     color: white;
@@ -229,9 +234,10 @@ margin-right: 3%;
     position: absolute;
     height: 30px;
     width: 4%;
+    min-width: 50px;
     align-items: center;
     border-radius: 6px 6px 0 0;
-    
+    min-width: 70px;
 }  
 .tab_radio2:checked + .selectBox1 {
     background-color:rgba(255, 233, 92, 0.828);
@@ -240,8 +246,8 @@ margin-right: 3%;
     position: absolute;
     height: 30px;
     width: 6%;
-
-    align-items: center;
+    min-width: 92px;
+    
     border-radius: 6px 6px 0 0;
 } 
 .tab_radio3:checked + .selectBox1 {
@@ -253,21 +259,37 @@ margin-right: 3%;
     width: 6%;
     margin-right: 0px;
     align-items: center;
+     margin-right: 3%;
+    word-break: break-all;
+
+    min-width: 100px;
     border-radius: 6px 6px 0 0;
 } 
 
 .toolTextWapp{
     display: flex;
-    position: relative;
+    /* position: relative; */
 }
 .toolTextWappHistory{
-    margin-left: 10%;
+    margin-left: 6%;
+    align-items: center;
+
+    position: relative;
+
 }
 .toolTextWappLike{
-    margin-left: 12%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    
 }
 .toolTextWappMyThread{
-    margin-left: 4%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 4%;
+
 }
 
 .tab_radio,.tab_radio2,.tab_radio3{
