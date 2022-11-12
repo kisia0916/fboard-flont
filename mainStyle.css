@@ -5,7 +5,8 @@
 
     table-layout: fixed;
     flex: 1;
-
+    top: 0;
+    z-index: 100;
 }
 .ThreadCreateBox{
     height: 8%;
@@ -28,7 +29,7 @@
     font-weight: 650;
     margin-left: 3%;
     margin-top: 18px;
-    user-select:none
+    user-select:none;
 }
 .ThreadCreateBox{
     
@@ -48,10 +49,10 @@
 .createInputWapp{
 
     background-color:white;
-    margin-left: 6.1%;
+    margin-left: 5%;
     margin-top: 0.3%;
     height: 43px;
-    width:75%;
+    width:77%;
     min-width: 250px;
     border-radius: 15px;
 
@@ -94,10 +95,10 @@
 }
 .Thread{
     background-color: #3c3c3d;
-    width: 87%;
+    width: 90%;
     
     box-sizing: border-box;
-    margin-left: 6.1%;
+    margin-left: 5%;
     margin-top: 15px;
     margin-bottom: 35px;
     border-radius: 20px;
@@ -115,7 +116,7 @@
 .ThreadIcon{
     border-radius: 50%;
     margin-left: 2.1%;
-    margin-top: 13px;
+    margin-top:14px;
 }
 .ThreadHead{
     display: flex;
@@ -127,7 +128,7 @@
     color: rgba(255, 255, 255, 0.814);
     font-size: 150%;
     margin-left: 11px;
-    margin-top: 10px;
+    margin-top: 14px;
     font-weight: 650;
 }
 .ThreadBody{
@@ -154,14 +155,14 @@
 .likeNum{
     height: 30px;
     background-color: #343438;
-    border-radius: 10px;
+    border-radius: 6px;
     align-items: center;
-    margin-left: 6%;
+    margin-left: 4%;
 }
 .seeNum{
     height: 30px;
-    background-color: #343438;
-    border-radius: 10px;
+
+    border-radius: 8px;
     align-items: center;
     margin-left: 1%;
 }
@@ -174,9 +175,11 @@
 }
 .seeNum{
     display: flex;
+    margin-left: 10%;
 }
 .ThreadTweetNum{
     align-items: center;
+    
 }
 .LileCounterText{
     margin-left: 5px;
@@ -201,4 +204,31 @@
     color: white;
     font-weight: 550;
     font-family: 'Franklin Gothic';
+}
+.ThreadCreateDate{
+    font-family: 'Franklin Gothic';
+    color: white;
+    font-size: 94%;
+    display: flex;
+    align-items: center;
+    White-space: nowrap
+}
+.ThreadLeft{
+    display: flex;
+}
+.ThreadRight{
+    display: flex;
+}
+.ThreadButton{
+    display: flex;
+    margin-left: 1.5%;
+}
+.ThreadCreateSend{
+    font-family: 'Franklin Gothic';
+    color: white;
+    font-size: 94%;
+    display: flex;
+    align-items: center;
+    White-space: nowrap;
+    margin-left: 6%;
 }

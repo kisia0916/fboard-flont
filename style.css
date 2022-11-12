@@ -1,14 +1,14 @@
 .topBar{
     background-color: #2d2d2ffa;
-
     height: 73px;
 }
 body{
     margin: 0;
-    overflow: hidden
+    background-color: #343435;
 }
 .mainWapp{
     height: 100vh;
+    overflow: hidden;
 }
 .mainSpace{
     display: flex;
@@ -16,30 +16,39 @@ body{
 
 }
 .leftBar{
-    flex:2.2;
+    flex:2.4;
     min-width: 320px;
-    background-color:#373738;
+    background-color:#373738; 
 
     resize: both;
     height: 100vh;
+
 }
 .mainScreen{
-    flex: 7.8;
+    flex: 7.6;
     background-color:#343435;
-    height: 100vh;
+    height: 90vh;
+    overflow: auto;
+    scrollbar-width: none
+    ;
 }
 .leftBarTop{
     flex: 3.5;
-    background-color:  #373738;
-
+    /* background-color:  #373738; */
+    background-color:  #303030;
 
 }
 .leftBarBottom{
     flex: 6.5;
-    height: 100vh;
+    height: 56vh;
     background-color:#353536;
-    /* overflow: scroll; */
-
+    overflow: auto;
+    scrollbar-width: none
+}
+.leftBarBottomWapp{
+    height: 100%;
+    
+    
 }
 .mainBox{
     height:90%;
@@ -109,7 +118,8 @@ margin-right: 3%;
 
 .phtoWapp{
     height: 100%;
-    background-color: #373738;
+     /* background-color: #373738;  */
+     background-color: #353536;
 }
 
 .profilePhoto{
